@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import axios from 'axios';
 import Home from './Home';
 import PokemonDetail from './PokemonDetail';
+import './index.css';
 
 const App = () => {
   const [pokemon, setPokemon] = useState([]);
@@ -22,10 +23,12 @@ const App = () => {
 
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<Home pokemonList={pokemon} />} />
-        <Route path="/pokemon/:id" element={<PokemonDetail pokemon={pokemon} />} />
-      </Routes>
+      <div className="min-h-screen bg-gray-100">
+        <Routes>
+          <Route path="/" element={<Home pokemonList={pokemon} />} />
+          <Route path="/pokemon/:id" element={<PokemonDetail pokemonList={pokemon} />} />
+        </Routes>
+      </div>
     </Router>
   );
 };
