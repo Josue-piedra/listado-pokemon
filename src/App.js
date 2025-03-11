@@ -5,7 +5,7 @@ import axios from 'axios';
 import Home from './Home';
 import PokemonDetail from './PokemonDetail';
 import './index.css';
-
+import './i18n';
 const App = () => {
   const { t, i18n } = useTranslation();
   const [pokemon, setPokemon] = useState([]);
@@ -34,13 +34,13 @@ const App = () => {
             className="mx-2 px-4 py-2 bg-blue-500 rounded-lg"
             onClick={() => i18n.changeLanguage('en')}
           >
-             EN English
+            {t('enLanguage')} {/* Traducción del botón "EN English" */}
           </button>
           <button
             className="mx-2 px-4 py-2 bg-red-500 rounded-lg"
             onClick={() => i18n.changeLanguage('es')}
           >
-            ES Español
+            {t('esLanguage')} {/* Traducción del botón "ES Español" */}
           </button>
         </div>
 
