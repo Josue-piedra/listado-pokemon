@@ -34,7 +34,9 @@ i18n
           sprites: "Sprites",
           backToHome: "Back to Home",
           enLanguage: "EN English",
-          esLanguage: "ES Español",
+          esLanguage: "ES Spanish",
+          allTypes: "AllTypes",
+
           // Tipos de Pokémon (los primeros 151)
           typeNormal: "Normal",
           typeFire: "Fire",
@@ -100,6 +102,7 @@ i18n
           backToHome: "Volver a la Página Principal",
           enLanguage: "EN Inglés",
           esLanguage: "ES Español",
+          allTypes:"Todos",
           // Tipos de Pokémon (los primeros 151)
           typeNormal: "Normal",
           typeFire: "Fuego",
