@@ -16,7 +16,7 @@ i18n
     resources: {
       en: {
         translation: {
-          title: "Kanto Pokédex",
+          title: " Pokemon",
           searchPlaceholder: "Search Pokémon...",
           previous: "Previous",
           next: "Next",
@@ -48,6 +48,12 @@ i18n
           typeBug: "Bug",
           typeGhost: "Ghost",
           typeFairy: "Fairy",
+          typeFlying: "Flying",
+          typeDragon: "Dragon",
+          typeDark: "Dark",
+          typeRock:"Rock",
+          typeGround:"Ground",
+          typeSteel: "Steel",
           // Habilidades de Pokémon
           abilityOvergrow: "Overgrow",
           abilityBlaze: "Blaze",
@@ -75,7 +81,7 @@ i18n
       },
       es: {
         translation: {
-          title: "Pokédex Kanto",
+          title: " Pokemon",
           searchPlaceholder: "Buscar Pokémon...",
           previous: "Anterior",
           next: "Siguiente",
@@ -107,6 +113,12 @@ i18n
           typeBug: "Bicho",
           typeGhost: "Fantasma",
           typeFairy: "Hada",
+          typeFlying: "Volador",
+          typeDragon: "Dragon",
+          typeDark: "Siniestro",
+          typeRock:"Roca",
+          typeGround:"Tierra",
+          typeSteel:"Acero",
           // Habilidades de Pokémon
           abilityOvergrow: "Espesura",
           abilityBlaze: "Llamarada",

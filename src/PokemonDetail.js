@@ -26,7 +26,7 @@ const PokemonDetail = ({ pokemonList }) => {
         })
         .catch((error) => console.error('Error fetching Pokémon description:', error));
     }
-  }, [selectedPokemon, i18n.language, t]); // Ejecutar cada vez que el Pokémon o el idioma cambien
+  }, [selectedPokemon, t]); // Ejecutar cada vez que el Pokémon o el idioma cambien
 
   // Función para traducir tipos y habilidades
   const translateType = (type) => {
@@ -47,7 +47,7 @@ const PokemonDetail = ({ pokemonList }) => {
       </div>
 
       {/* Sprites */}
-      <div className="mt-6 bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700">
+      <div className="mt-6 bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700 mb-6">
         <h2 className="text-2xl font-semibold mb-4">{t('sprites')}</h2> {/* Título de los sprites */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 justify-center">
           {/* Muestra los sprites del Pokémon */}
