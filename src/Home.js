@@ -1,4 +1,4 @@
-// Home.js
+
 import React, { useState, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useDebounce } from 'use-debounce';
@@ -53,14 +53,14 @@ const Home = ({ pokemonList }) => {
         </h1>
       </div>
 
-      {/* Componente para la barra de búsqueda y los filtros */}
+      {/* barra de búsqueda y los filtros */}
       <SearchAndFilter
         setSearchTerm={setSearchTerm}
         setSelectedType={setSelectedType}
         translateTypeOrAbility={translateTypeOrAbility}
       />
 
-      {/* Componente para la lista de Pokémon */}
+      {/* lista de Pokémon */}
       <PokemonList
         pokemons={currentPokemons}
         translateTypeOrAbility={translateTypeOrAbility}

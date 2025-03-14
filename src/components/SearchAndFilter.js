@@ -2,7 +2,7 @@ import React from 'react';
 import { FaSearch } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 
-// Componente que muestra la barra de búsqueda y los botones de filtrado.
+// barra de búsqueda y los botones de filtrado.
 const SearchAndFilter = ({ setSearchTerm, setSelectedType, translateTypeOrAbility }) => {
   const { t } = useTranslation();
 
